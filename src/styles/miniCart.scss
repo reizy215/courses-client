@@ -1,0 +1,43 @@
+.mini-cart {
+    background-color: #008b8b;
+    color: white;
+    padding: 16px;
+    border-radius: 12px;
+    max-width: 300px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 16px;
+    z-index: 1000;
+    max-height: 50vh;
+    min-width: 200px;
+    overflow-y: auto;
+}
+
+.mini-cart-list {
+    padding-right: 8px;
+}
+
+.mini-cart-item {
+    & {
+        display: flex;
+        align-items: center;
+        margin: 8px 0;
+    }
+
+    .cart-image {
+        width: 50px;
+        height: 50px;
+        border-radius: 8px;
+        margin-right: 12px;
+    }
+
+    .cart-text {
+        color: white;
+    }
+}
+
+h6,
+p {
+    margin: 0;
+}

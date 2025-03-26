@@ -1,0 +1,79 @@
+.container {
+    min-height: 100vh;
+    background-image: url('../assets/images/login.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .contentContainer {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .title {
+        text-align: center;
+        color: black;
+        padding: 1rem;
+        font-weight: 1000;
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .form {
+        max-width: 38%;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px; 
+        background-color: #e0f7fa;
+    }
+
+    .formContainer {
+        width: 100%;
+        text-align: center;
+
+        .textField {
+            background-color: white;
+
+            p{
+                background-color:  #e0f7fa;
+                margin: 0;
+                padding-top: 5px;
+                padding-left: 5px;
+            }
+        }
+
+        .textField,
+        .button {
+            width: 100%;
+            margin-bottom: 1.5rem;
+        }
+
+        .button {
+            background-color: #4dd0e1;
+            color: white;
+            margin-top: .5rem;
+
+            &:hover {
+                background-color: #26c6da;
+            }
+        }
+    }
+
+    @media (max-width: 848px) {
+
+        .form {
+            width: 60%;
+            max-width: 60%;
+            right: 10px;
+            bottom: 10px;
+        }
+    }
+}

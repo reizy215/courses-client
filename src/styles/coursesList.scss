@@ -1,0 +1,50 @@
+$primary-color: #008b8b;
+
+.CoursesList {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    h3 {
+        font-weight: bold;
+    }
+
+    h4 {
+        margin-bottom: 20px;
+        color: darkturquoise;
+    }
+
+    .css-16mmgyz-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+        background-color: $primary-color;
+    }
+
+    .MuiButton-root {
+        margin: 5px;
+    }
+
+    .MuiGrid-root {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .MuiGrid-item {
+        max-width: 33%;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    .MuiGrid-root:empty {
+        justify-content: flex-start;
+    }
+
+    @media (max-width: 600px) {
+        .MuiGrid-item {
+            max-width: 100%;
+        }
+    }
+}
