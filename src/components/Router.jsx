@@ -8,7 +8,7 @@ import AddCourse from '../pages/AddCourse';
 import CourseDetails from './CourseDetails';
 import EditCourse from '../pages/EditCourse';
 import ProtectedRoute from './ProtectedRoute';
-import Checkout from '../pages/CheckOut';
+import Checkout from '../pages/Checkout';
 
 
 const Router = () => {
