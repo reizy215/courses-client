@@ -10,7 +10,7 @@ const ExtendedCourseDetails = ({ course }) => {
             <h2 className="title">{course.name}</h2>
             <p className="description">{course.description}</p>
             <p className="price">{course.price} $</p>
-            <img src={`../../${course.imagePath}`} alt={course.name} className="course-image" />
+            <img src={course.imagePath} alt={course.name} className="course-image" />
             <p className="start-date">
                 Start Date: {new Date(course.startDate).toLocaleDateString()}
             </p>
