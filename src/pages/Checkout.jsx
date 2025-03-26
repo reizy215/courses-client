@@ -15,7 +15,7 @@ import {
 
 import { fetchAddOrder } from '../api/orderService';
 
-import "../styles/checkOut.scss";
+import "../styles/checkout.scss";
 
 
 const Checkout = () => {
