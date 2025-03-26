@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 import PublishedWithChangesIcon from '@mui/icons-material/PublishedWithChanges';
 import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';
-import HighlightoffIcon from '@mui/icons-material/Highlightoff';
+import HighlightoffIcon from '@mui/icons-material/HighlightOff';
 
 import Swal from "sweetalert2";
 
